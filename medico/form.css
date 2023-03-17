@@ -1,0 +1,483 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box;
+    
+}
+
+
+
+
+.menu{
+    width: 100%;
+    height: 50vh;
+    min-height: 600px;
+    background-image: url(dr0.png);
+    background-repeat: no-repeat;
+}
+nav{
+    width: 100%;
+    background: rgba(210, 228, 226, 0.833);
+    min-height: 10px;
+    display: flex;
+    align-items: center;
+}
+nav h2{
+    display: flex;
+   margin-left: 10%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+;
+}
+.menu1{
+    float: right;
+    list-style: none;
+   
+    display: flex;
+    justify-content:space-between;
+    width:100%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+.menu button{
+    background: rgb(131, 186, 198);
+    font-size: 15px;
+
+    
+  
+}
+.menu h5{  
+color:white ;
+margin-left: 15%;
+margin-top: 30vh;
+font-size: 40px;
+
+}
+.menu h3{  
+color:rgb(244, 244, 244) ;
+margin-left: 10%;
+margin-top: 5vh; font-size: 30px;
+
+
+
+}
+.menu h4{  
+color:white ;
+margin-left: 10%;
+margin-top: 5vh;
+font-size: 20px;
+
+}
+.menu button{
+background: white;
+font-size: 15px;
+margin-top: 5px ;
+margin-left: 15%;
+inline-size: 20%;
+
+}
+
+/*  this is future style css this is 2 div created  */
+.wec{      
+    width:100%;
+    min-height: 300px;
+   
+}
+.wec1{
+    width: 50%;
+    min-height: 300px;
+background:white;
+float: left;
+
+}
+ 
+.wec2{
+    background: white;
+    width: 50%;
+    min-height: 300px;
+    color: aqua;
+    float: right;
+    background-image: url(dr1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/*-- ----------------------font---------------------*/
+ .wec h2{  
+    color:rgb(95 195 225) ;
+   margin-left: 20%;
+   margin-top: 20px;
+
+}
+.wec h3{  
+    color:rgb(24, 24, 24) ;
+   margin-left: 20%;
+   margin-top: 20px;
+   font-size: 40px;
+
+
+}
+.wec h4{  
+    color:rgb(24, 24, 24) ;
+   margin-left: 20%;
+   margin-top: 20px;
+   font-size: 20px;
+
+}
+.wec button{
+     background: rgb(131, 186, 198);
+     font-size: 15px;
+     margin-top: 30px ;
+    margin-left: 25%;
+    inline-size: 20%;
+   
+}
+
+
+
+/*  this is future style css this is 4 div created  */
+
+.div1{
+    width:100%;
+    min-height: 800px;
+
+ margin-top: 10%;
+
+
+}
+.a1{
+    width: 50%;
+    min-height: 400px;
+background-repeat: no-repeat;
+float: left;
+background-image: url(dr2.png);
+background-position: 50%;
+background-color: #6bc2f1;
+
+
+}
+.a2{
+    width: 50%;
+    min-height: 400px;
+background: #6bc2f1;
+
+float: right;
+}
+.a3{
+    width: 50%;
+    min-height: 400px;
+background: #6bc2f1;
+color: white;
+float: left;
+}
+.a4{
+    width: 50%;
+    min-height: 400px;
+ color:white;
+float: right;
+background-image: url(dr3.png);
+}
+/*---------------- font_ style  info----------------------*/
+ .div1 h2{  
+    color:rgb(95 195 225) ;
+   margin-left: 20%;
+   margin-top: 40px;
+
+}
+.div1 h3{  
+    color:white  ;
+   margin-left: 20%;
+   margin-top: 20px;
+   font-size: 30px;
+
+
+}
+.div1 h4{  
+    color:white;
+   margin-left: 20%;
+   margin-top: 20px;
+   font-size: 20px;
+
+}
+/*-----------------------futures -----------------------------------*/
+.futures{
+    width: 100%;
+    min-height: 600px;
+    margin-bottom: 10%;
+    
+}
+.futures1{
+    width: 33%;
+    min-height: 300px;
+    background-image: url(dr4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    
+}
+
+.futures2{
+    width: 33%;
+    min-height: 300px;
+    background-image: url(dr5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float:right;
+    
+}
+.futures3{
+    width: 34%;
+    min-height: 300px;
+    background-image: url(dr6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float:right;
+}
+.futures4{
+    width: 33%;
+    min-height: 300px;
+    background-image: url(dr7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+}
+.futures5{
+    width: 33%;
+    min-height: 300px;
+    background-image: url(dr8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float:right;
+}
+.futures6{
+    width: 34%;
+    min-height: 300px;
+    background-image: url(dr9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float:right;
+}
+/*---------------------------------- font stayle---------------------------------*/
+
+
+
+.futures h2{  
+    color:rgb(95 195 225) ;
+   margin-left: 20%;
+   margin-top: 50%;
+   margin-left: 40%;
+   inline-size: 10%;
+   position: center;
+
+}
+.futures p{
+margin-left: 40px;
+
+}
+
+/*----------------------------------Lab -------------------------------------------*/
+.lab{
+    width: 100%;
+    min-height: 700px;
+   
+      background-color: rgb(217, 217, 217);
+   }
+.lab1{
+    width:33%;
+    min-height: 300px;
+    background-image: url(dr10.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    float:left;
+    margin-top: 30px;
+    
+
+}
+.lab2{
+    width: 33%;
+    min-height: 300px;
+    background-image: url(dr11.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float:right;
+    margin-top: 30px;
+}
+.lab3{
+    width: 34%;
+    min-height: 300px;
+    background-image: url(dr12.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float:right;
+    margin-top: 30px;
+}
+.lab4{
+    width: 33%;
+    min-height: 300px;
+    background-image: url(dr13.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    margin-top: 30px;
+}
+.lab5{
+    width: 33%;
+    min-height: 300px;
+    background-image: url(dr16.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float:right;
+    margin-top: 30px;
+}
+.lab6{
+    width: 34%;
+    min-height: 300px;
+    background-image: url(dr15.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float:right;
+    margin-top:  30px;
+}
+/*-------------------------- Info ------------------------------------------------------------------------------------------*/
+.Info{
+width: 100%;
+min-height: 300px;
+background-color: #6bc2f1;
+text-align: center;
+color: white;
+margin-top: 5%;
+}
+.Info h2{
+color: white;
+font-size: 50px;   
+}
+.Info p{
+color: white;
+}
+.Info h3{
+color: white;
+font-size: 30px;   
+margin-top:30px;
+}
+.Info h4{
+color: white;
+font-size: 20px;   
+
+}
+/* ----------    from    ------------------------*/
+.form{ 
+    width: 100%;
+   min-height:200%;
+   margin-top: 20px;
+}
+.form1{
+    width: 60%;
+    min-height: 100px;
+    float: left;
+
+}
+
+.form2{
+    width: 40%;
+  
+    background: #e2ebeb;
+    float: left;
+    
+    
+  
+}
+input{
+    margin-top: 10px;
+    justify-content:space-between;
+    margin-left:50vh;
+    
+}
+.form h1{
+    margin-top: 10px;
+    margin-left:50vh;
+}
+.form textarea{
+    margin-top: 10px;
+    margin-left:50vh;
+}
+.form button{
+   
+    font-size: 15px;
+    margin-top: 30px ;
+   margin-left:37%;
+   inline-size: 20%;
+}
+
+/*------------------------- footer --------------------------------------------------------------*/
+.footer{ 
+    width: 100%;
+   min-height:400%;
+   margin-top: 30%;
+line-height: 30px;
+}
+.footer1{
+    width: 33%;
+    min-height: 300px;
+    float: left; 
+    background-color: #051818;
+
+}
+
+.footer2{
+    width: 33%;
+    min-height: 300px;
+    background:  #051818;
+    float: right;
+   
+}
+.footer3{
+        width: 34%;
+        min-height: 300px;
+        background:#051818;
+    
+        float: right;
+       
+}
+
+/*------------------------- footer style --------------------------------------------------------------*/
+.footer h4{
+
+margin-left: 50%;
+margin-top: 30px;
+color:white;
+font-size: 30px;
+
+}
+
+/*------------------------- footer style --------------------------------------------------------------*/
+.footer p{
+margin-top: 20%;
+margin-left: 30%;
+
+color:white;
+}
+
+.footer2 p{
+margin-top: 20%;
+margin-left: 50%;
+
+color:white;
+  }
+.footer3 p{
+    margin-top: 20%;
+    margin-left: 50%;
+
+    color:white;
+      }
+.footer1 p{
+margin-top: 20%;
+margin-left: 40%;
+            
+color:white;
+}
+
+
+
+
